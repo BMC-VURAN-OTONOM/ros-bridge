@@ -86,7 +86,7 @@ def generate_launch_description():
                     'carla_spawn_objects'), 'carla_example_ego_vehicle.launch.py')
             ),
             launch_arguments={
-                'object_definition_file': get_package_share_directory('carla_spawn_objects') + '/config/objects.json',
+                'object_definition_file': get_package_share_directory('carla_spawn_objects') + '/config/objectsKuartis.json',
                 'role_name': launch.substitutions.LaunchConfiguration('role_name')
             }.items()
         ),

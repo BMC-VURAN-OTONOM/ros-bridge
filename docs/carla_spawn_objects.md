@@ -17,10 +17,10 @@ Objects and their attached sensors are defined through a `.json` file. The defau
 
 ```sh
     # ROS 1
-    roslaunch carla_spawn_objects carla_spawn_objects.launch objects_definition_file:=path/to/objects.json
+    roslaunch carla_spawn_objects carla_spawn_objects.launch objects_definition_file:=path/to/objectsKuartis.json
 
     # ROS 2
-    ros2 launch carla_spawn_objects carla_spawn_objects.launch.py objects_definition_file:=path/to/objects.json
+    ros2 launch carla_spawn_objects carla_spawn_objects.launch.py objects_definition_file:=path/to/objectsKuartis.json
 ```
 
 
